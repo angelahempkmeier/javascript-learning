@@ -31,3 +31,39 @@ function run(fun){
 }
 
 run(function() {console.log('executando')})
+
+
+//arguments
+function soma(){
+    let soma = 0;
+    for(i in arguments){
+        soma += arguments[i];
+    }
+    return soma;
+}
+
+console.log(soma(1, 2, 3));
+
+//default
+    //metodo 1, dá problema com o número 0
+function soma1(a, b, c){
+    a = a || 1;
+    b = b || 1;
+    c = c || 1;
+
+    return a + b + c;
+}
+    //metodo 2
+function soma2(a, b, c){
+    a = a !== undefined ? a : 1;
+    b = 1 in arguments ? b : 1; //se eu tivesse testando com o c, teria que ser 2 in arguments, pq ele pega o indice
+    c = isNaN(c) ? 1 : c; //estrategia mais segura pra esse tipo de situacao
+
+    return a + b + c;
+}
+    //metodo 3, es() 
+function soma3(a = 1, b = 1, c = 1) {
+    return a + b + c;
+}
+
+
