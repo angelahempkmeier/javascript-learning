@@ -1,0 +1,34 @@
+
+body {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 50vh;
+    width: 100vw;
+}
+
+
+.text-container {
+    background-color: bisque;
+    height: 5vh;
+    width: 8vw;
+    text-align: center;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: tomato;
+    box-shadow: 2px 2px 1px 1px #000;
+}
+
+.text-container:active {
+    box-shadow: none;
+}
