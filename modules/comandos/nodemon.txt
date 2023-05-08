@@ -1,0 +1,5 @@
+sudo npm i -g nodemon
+
+nodemon meujs.js
+
+/*vc altera o código e ele restarta automaticamente quando vc salva*/

@@ -1,0 +1,3 @@
+npm init /*necessário responder às perguntas*/
+npm init -y /*responde sim pra tudo*/
+npm i --save axios/*explicita no package.json a dependencia axios*/
