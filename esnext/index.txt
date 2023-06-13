@@ -1,0 +1,10 @@
+var tinha escopo de função ou escopo global. let tem escopo de bloco. 
+
+#Destructuring
+const [x, y] = [1, 2]; //console.log(x, y); //1 2
+const {idade, nome} : {nome: 'Ana', idade: 9}
+
+#Arrow function, funções
+Funções arrows são anônimas.
+
+const soma = (a, b) => a + b;
