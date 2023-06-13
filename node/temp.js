@@ -11,7 +11,7 @@ setTimeout(function () {
 
 const rule = new schedule.RecurrenceRule();
 rule.dayOfWeek = [new schedule.Range(2, 5)];
-rule.hour = 12;
+rule.hour = 10;
 rule.second = 30;
 
 const task2 = schedule.scheduleJob(rule, function () {
