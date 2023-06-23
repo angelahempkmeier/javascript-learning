@@ -15,7 +15,10 @@
         <img src='http://files.cod3r.com.br/curso-web/logo-estreita.png' alt='logo'>
     </div>
     <script>
-        // ...
+        const img = document.querySelector('img');
+        console.log('getAttribute:', img.getAttribute('src'));
+        console.log('src direto:', img.src);
+        console.log('["src"]', img['src']);
     </script>
 </body>
 
