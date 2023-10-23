@@ -1,0 +1,41 @@
+# Arquivos de compilação
+*.o
+*.out
+
+# Arquivos executáveis
+*.exe
+*.dll
+*.so
+
+# Arquivos de projeto específicos de IDEs
+.idea/
+.vscode/
+*.iml
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# Diretórios de dependências gerados
+node_modules/
+vendor/
+
+# Arquivos de configuração sensíveis
+config.ini
+secrets.txt
+
+# Diretório de build
+build/
+
+# Arquivos de cache
+.cache/
+
+# Arquivos de backup
+backup/
+
+# Arquivos gerados pela documentação
+docs/
+
